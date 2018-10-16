@@ -1,8 +1,8 @@
 body {
     background: white;
     /* background: rgb(135,213,212); */
-    width:100%;
-    height:auto;
+    width: 100%;
+    height: auto;
 }
 
 .firstView {
@@ -10,8 +10,8 @@ body {
     height: 736px;
     border: 2pt solid black;
     margin: 2%;
-    background: rgb(135,213,212);
-
+    /* background: rgb(135,213,212); */
+    background-image: linear-gradient(to right top, #807289, #828bb3, #6baad8, #3acaed, #12e9eb);
 }
 
 .secondView {
@@ -19,14 +19,15 @@ body {
     height: 736px;
     border: 2pt solid black;
     margin: 2%;
-    background: rgb(135,213,212);
-
+    /* background: rgb(135,213,212); */
+    background-image: linear-gradient(to right top, #807289, #828bb3, #6baad8, #3acaed, #12e9eb);
 }
-
 
 .good {
     color: aliceblue;
-    background-color:green;
+    /* background-color:green; */
+    /* background-color: #DD86E6; */
+    background-image: linear-gradient(to left bottom, #807289, #c67391, #f98060, #e7b100, #75eb12);
     width: 60%;
     height: auto;
     margin-left: 20%;
@@ -36,16 +37,18 @@ body {
 }
 
 .indClients {
-    font-size:15pt;
+    font-size: 15pt;
     /* color: red; */
     padding-left: 3pt;
 }
+
 .good:hover {
-    border:2pt solid black
+    border: 2pt solid black
 }
+
 .checkMe {
     color: aliceblue;
-    background-color:green;
+    background-color: green;
     width: 70pt;
     /* height: auto; */
     /* margin-left: 3%; */
@@ -55,23 +58,23 @@ body {
     position: relative;
     left: 150 px;
     height: 25pt;
-
 }
+
 #alertMe {
     position: fixed;
-    text-align:center;
+    text-align: center;
     top: 376pt;
     width: 300px;
     margin: 5%;
     padding: 10px;
     height: auto;
-    display:none;
+    display: none;
     border: 2pt solid black;
     background: slateblue;
     color: aliceblue;
     font-size: 18pt;
-
 }
+
 .indClients {
     border: 2pt solid black;
 }
@@ -81,26 +84,46 @@ body {
     position: fixed;
 }
 
-
-
 .addNew {
-
+    margin: 3px;
     width: 70pt;
-    height: 5 pts;
-    background: teal;
+    height: 5 pt;
+    /* background: teal; */
+    background-color: #77467C;
 }
+
+.addNew:hover {
+    border: 2pt solid black;
+    background-color: orange;
+}
+
 .delete {
+    margin: 3px;
     width: 70pt;
-    height: 5 pts;
-    background: red; 
+    height: 5 pt;
+    background: red;
 }
 
-.needHelp {
-    margin-top:20%;
+.delete:hover {
+    border: 2pt solid black;
+    background-color: orange;
 }
+
+
+#goodGood {
+    display:none;
+    font-size:14pt;
+    font-weight:bold;
+    margin:1%;
+}
+.needHelp {
+    margin-top: 20%;
+}
+
 .poorly {
     color: aliceblue;
-    background-color:red;
+    background-color: red;
+    /* background-color:#C03535; */
     width: 60%;
     height: auto;
     margin-left: 20%;
@@ -110,6 +133,16 @@ body {
 }
 
 .poorly:hover {
-    border:2pt solid black;
+    border: 2pt solid black;
     background-color: black;
+}
+
+#inputAdd {
+    padding-left: 5%;
+    display:none;
+}
+
+#inputDelete {
+    padding-left: 5%;
+    display:none;
 }

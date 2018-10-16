@@ -53,7 +53,7 @@
                         <center>Who do we want to check on today?</center>
                     </h2>
                 </p>
-            </br>
+                </br>
 
                 <div class="clients">
                     <ul>
@@ -68,22 +68,44 @@
                                 </button>
                             </div>
                         </div>
+                        <div class="row">
+                            <div class="goodGood" id="goodGood">
+                                <p>Don't worry about me</p>
+                            </div>
+                        </div>
                     </ul>
 
 
                 </div>
+
                 <div class="choices2">
-                    <button class="btn addNew" onclick="addNew ()">
-                        <h6>add new</h6>
-                    </button>
-
+                    <div class="row">
+                        <div class="col-sm-4">
+                            <button class="btn addNew" onclick="addNew ()">
+                                <h6>add new</h6>
+                            </button>
+                        </div>
+                        <div class="col-sm-8 inputAdd" id="inputAdd">
+                            <!-- add someone field -->
+                            <form id="addSomeone">
+                                <input type="text" size="25" name="AddName" value="Name">
+                        </div>
+                    </div>
                     </br>
-                    </br>
 
-
-                    <button class="btn delete" onclick="deleteMe ()">
-                        <h6>Delete</h6>
-                    </button>
+                    <div class="row">
+                        <div class="col-sm-4">
+                            <button class="btn delete" onclick="deleteMe ()">
+                                <h6>Delete</h6>
+                            </button>
+                        </div>
+                        <div class="col-sm-8 inputDelete" id="inputDelete">
+                            <!-- delete someone field -->
+                            <form id="deleteSomeone">
+                                <input type="text" size="25" name="deleteName" value="Name">
+                            </form>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
