@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Page Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="stylesheet" type="text/css" media="screen" href="style/bootstrap.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="style/imFine.css" />
+
+    <script src="script/imFine.js"></script>
+</head>
+
+<body>
+    <div class="container">
+        <div class="col-sm-6 firstView">
+
+
+            <div class="doingWell">
+                <p>
+                    <h2>
+                        <center>How are you Feeling today</center>
+                    </h2>
+                </p>
+
+                <div class="choices">
+                    <button class="btn good" onclick="imGood ()">
+                        <h1>I'm Ok</h1>
+                    </button>
+
+                    </br>
+                    </br>
+
+
+                    <button class="btn poorly" onclick="helpMe ()">
+                        <h1>Need Help</h1>
+                    </button>
+                </div>
+            </div>
+            <div class="alertMe" id="alertMe">
+                <!-- this stays hidden  -->
+                <p id="message"> Are you doing Ok today, we haven't recieved any notification</p>
+
+            </div>
+        </div>
+
+        <div class="col-sm-6 secondView">
+            <div class="doingWell">
+                <p>
+                    <h2>
+                        <center>Who do we want to check on today?</center>
+                    </h2>
+                </p>
+            </br>
+
+                <div class="clients">
+                    <ul>
+                        <div class="row">
+                            </row>
+                            <div class="col-sm-8">
+                                <li class="indClients">Aunt Eleanor </li>
+                            </div>
+                            <div class="col-sm-4">
+                                <button class="btn checkMe" onclick="checkUp ()">
+                                    <p>check up</p>
+                                </button>
+                            </div>
+                        </div>
+                    </ul>
+
+
+                </div>
+                <div class="choices2">
+                    <button class="btn addNew" onclick="addNew ()">
+                        <h6>add new</h6>
+                    </button>
+
+                    </br>
+                    </br>
+
+
+                    <button class="btn delete" onclick="deleteMe ()">
+                        <h6>Delete</h6>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

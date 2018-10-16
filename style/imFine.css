@@ -1,0 +1,115 @@
+body {
+    background: white;
+    /* background: rgb(135,213,212); */
+    width:100%;
+    height:auto;
+}
+
+.firstView {
+    width: 414px;
+    height: 736px;
+    border: 2pt solid black;
+    margin: 2%;
+    background: rgb(135,213,212);
+
+}
+
+.secondView {
+    width: 414px;
+    height: 736px;
+    border: 2pt solid black;
+    margin: 2%;
+    background: rgb(135,213,212);
+
+}
+
+
+.good {
+    color: aliceblue;
+    background-color:green;
+    width: 60%;
+    height: auto;
+    margin-left: 20%;
+    margin-top: 10%;
+    text-align: center;
+    padding-bottom: 10pt;
+}
+
+.indClients {
+    font-size:15pt;
+    /* color: red; */
+    padding-left: 3pt;
+}
+.good:hover {
+    border:2pt solid black
+}
+.checkMe {
+    color: aliceblue;
+    background-color:green;
+    width: 70pt;
+    /* height: auto; */
+    /* margin-left: 3%; */
+    /* margin-top: 3%; */
+    text-align: center;
+    /* padding-bottom: 2pt; */
+    position: relative;
+    left: 150 px;
+    height: 25pt;
+
+}
+#alertMe {
+    position: fixed;
+    text-align:center;
+    top: 376pt;
+    width: 300px;
+    margin: 5%;
+    padding: 10px;
+    height: auto;
+    display:none;
+    border: 2pt solid black;
+    background: slateblue;
+    color: aliceblue;
+    font-size: 18pt;
+
+}
+.indClients {
+    border: 2pt solid black;
+}
+
+.choices2 {
+    top: 500px;
+    position: fixed;
+}
+
+
+
+.addNew {
+
+    width: 70pt;
+    height: 5 pts;
+    background: teal;
+}
+.delete {
+    width: 70pt;
+    height: 5 pts;
+    background: red; 
+}
+
+.needHelp {
+    margin-top:20%;
+}
+.poorly {
+    color: aliceblue;
+    background-color:red;
+    width: 60%;
+    height: auto;
+    margin-left: 20%;
+    margin-top: 5%;
+    text-align: center;
+    padding-bottom: 10pt;
+}
+
+.poorly:hover {
+    border:2pt solid black;
+    background-color: black;
+}
